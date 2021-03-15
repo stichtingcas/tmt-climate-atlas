@@ -1,17 +1,15 @@
-# Climate Atlas Kenya
+# Tailor Made Training: python application
 
 #### What is this project about?
-This project implements the Climate Atlas Kenya. The Climate Atlas Kenya is a dashboard providing information about temperature and precipitation in Kenya, in the past and in the future. 
+This project implements the TMT climate atlas. This climate atlas is a simple dashboard providing information about temperature in Kenya, in the past and in the future, and is meant to be a starting point to create a more complex climate atlas.
 
-The project is developed with the popular Python visualization library Dash by Plotly.
+The project is developed with the Python visualization library [Dash](https://plotly.com/dash/) by Plotly.
 
 #### Why is this useful?
-
+This starter climate atlas is part of the course materials of the 'Tailor-Made Training - Build a climate atlas from open data' MOOC. Students can login here: [https://courses.deltacapproject.net/](https://courses.deltacapproject.net/)
 
 #### How can users get started with this project?
-Fork the project and change the dashboard to use different data sources. 
-
-Run on local server with command: `python App.py`
+Download the code in this repository and run the application with command: `python app.py`
 
 #### Who maintains and contributes to the project?
 This project is created and maintained by [Stichting CAS](https://www.climateadaptationservices.com).
