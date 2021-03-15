@@ -6,10 +6,10 @@ This project implements the TMT climate atlas. This climate atlas is a simple da
 The project is developed with the Python visualization library [Dash](https://plotly.com/dash/) by Plotly.
 
 #### Why is this useful?
-This starter climate atlas is part of the course materials of the 'Tailor-Made Training - Build a climate atlas from open data' MOOC. Students can login here: [https://courses.deltacapproject.net/](https://courses.deltacapproject.net/)
+This starter climate atlas is part of the course materials of the 'Tailor-Made Training - Build a climate atlas from open data' MOOC. Students can login into Moodle here: [https://courses.deltacapproject.net/](https://courses.deltacapproject.net/)
 
 #### How can users get started with this project?
-Download the code in this repository and run the application locally with command: `python app.py`
+Download the code in this repository and run the application locally with command: `python app.py`. More information about this is given on the course page on Moodle.
 
 #### Who maintains and contributes to the project?
 This project is created and maintained by [Stichting CAS](https://www.climateadaptationservices.com).
