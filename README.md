@@ -9,7 +9,7 @@ The project is developed with the Python visualization library [Dash](https://pl
 This starter climate atlas is part of the course materials of the 'Tailor-Made Training - Build a climate atlas from open data' MOOC. Students can login here: [https://courses.deltacapproject.net/](https://courses.deltacapproject.net/)
 
 #### How can users get started with this project?
-Download the code in this repository and run the application with command: `python app.py`
+Download the code in this repository and run the application locally with command: `python app.py`
 
 #### Who maintains and contributes to the project?
 This project is created and maintained by [Stichting CAS](https://www.climateadaptationservices.com).
