@@ -1,4 +1,4 @@
-# Tailor Made Training: python application
+# Tailor Made Training: Python application
 
 #### What is this project about?
 This project implements the TMT climate atlas. This climate atlas is a simple dashboard providing information about temperature in Kenya, in the past and in the future, and is meant to be a starting point to create a more complex climate atlas.
