@@ -56,7 +56,7 @@ def create_map(maps_current_state, map_id, other_map_id, geojson_grid_temp, lege
                 maps_current_state['Historic'] = tempdays_hist
                 maps_current_state['Projection'] = tempdays_proj
                 maps_current_state['user_input'] = [
-                    variable, years, temp_threshold, temp_threshold_2]
+                    variable, years, temp_threshold, temp_threshold_2, slider]
 
         # create a gridded data layer on top of the map
         return choropleth_map_figure(maps_current_state, period, legend_flag, geojson_grid_temp, variable)
