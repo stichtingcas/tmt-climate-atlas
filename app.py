@@ -24,8 +24,6 @@ app = dash.Dash(__name__,
                 # stylesheet
                 external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-server = app.server
-
 # Import settings
 settings = get_settings()
 
@@ -35,8 +33,8 @@ maps_current_state = {
     'Projection': None,
     'zoom': settings['start_map_zoom'],
     'center': settings['start_map_center'],
-    # user_input consists of: [variable, years, min_temp, max_temp]
-    'user_input': ['', '', '', '']
+    # user_input consists of: [variable, years, min_temp, max_temp, slider]
+    'user_input': ['', '', '', '', '']
 }
 
 # create app elements
