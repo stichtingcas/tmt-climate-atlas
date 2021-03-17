@@ -86,9 +86,12 @@ def temperature_chart(ds, variable):
                   'July', 'August', 'September', 'October', 'November', 'December']
     )
 
-    fig.update_yaxes(title_text=str(variable) + ' (\u00b0C)')
+    variable_split = variable.split(' ')
+    variable_title = variable_split[0] + ' ' + variable_split[1]
 
-    fig.update_layout(legend_title="", title="Seasonality of " + str(variable).lower() +
+    fig.update_yaxes(title_text=variable_title + ' (\u00b0C)')
+
+    fig.update_layout(legend_title="", title="Seasonality of " + variable_title.lower() +
                       " for selected location", hovermode="x unified", hoverlabel=dict(bgcolor="white"))
 
     return fig
