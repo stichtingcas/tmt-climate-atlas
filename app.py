@@ -24,6 +24,8 @@ app = dash.Dash(__name__,
                 # stylesheet
                 external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+server = app.server
+
 # Import settings
 settings = get_settings()
 
